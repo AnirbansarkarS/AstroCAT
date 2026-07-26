@@ -1,0 +1,12 @@
+pyyaml
+numpy
+opencv-python
+torch
+torchvision
+pillow
+flask
+requests
+panoptes-client
+
+[dev]
+pytest
