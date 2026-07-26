@@ -1,0 +1,1 @@
+"""AstroCAT dashboard app."""

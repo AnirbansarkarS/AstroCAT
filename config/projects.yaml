@@ -1,0 +1,23 @@
+projects:
+  active-asteroids:
+    name: "Active Asteroids"
+    model_type: "cv_diff"
+    panoptes_project_id: "19080"
+    data_dir: "data/active-asteroids"
+    db_path: "data/active-asteroids/storage.db"
+    subjects_dir: "data/active-asteroids/subjects"
+    novelty_threshold: 0.5
+
+  galaxy-zoo:
+    name: "Galaxy Zoo"
+    model_type: "cnn_classifier"
+    panoptes_project_id: "10235"
+    data_dir: "data/galaxy-zoo"
+    db_path: "data/galaxy-zoo/storage.db"
+    subjects_dir: "data/galaxy-zoo/subjects"
+    num_classes: 3
+    labels_map:
+      0: "smooth"
+      1: "features"
+      2: "artifact"
+    novelty_threshold: 0.6
